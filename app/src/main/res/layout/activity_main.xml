@@ -16,16 +16,17 @@
         android:background="@color/purple_200"></View>
 
 
-    <TextView
+    <ImageView
        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerVertical="true"
         android:textSize="60dp"
         android:textColor="@color/black"
         android:text="@string/number1"
-        android:id="@+id/numberone"
+        android:id="@+id/img_dice"
+        tools:src="@drawable/dice_1"
         android:layout_centerHorizontal="true"
-        tools:ignore="InvalidId"></TextView>
+        tools:ignore="InvalidId"></ImageView>
 
     <Button
         android:id="@+id/button"
